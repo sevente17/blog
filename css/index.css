@@ -1,0 +1,30 @@
+div.backgrond
+{
+    background-image: linear-gradient(to bottom right, red , yellow);
+    margin: -8px;
+    width: 99vw;
+}
+
+
+.Centered
+{
+    text-align:center;
+    
+}
+
+a.backgrond
+{
+    font-size: 30px;
+}
+
+div.footer
+{
+    background-color:rgba(243, 236, 236, 0.527) ;
+    margin: 0px;
+    height: 125px;
+}
+
+a
+{
+    margin:10px;
+}

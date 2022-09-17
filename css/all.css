@@ -1,10 +1,31 @@
-@media screen and (max-width: 1024px) {
-    .mdui-drawer{
-        top: 0px;
-    }
+h1.top
+{
+    color: rgb(0, 0, 0);
+    text-align:center;
 }
-@media screen and (min-width: 1024px) {
-    .mdui-drawer{
-        top: 56px;
-    }
+
+h1,h2,h3,h4,h5,a
+{
+  color:rgb(255, 255, 255);
+}
+
+a
+{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+
+html
+{  
+  height: 100%;  
+}  
+     
+*
+{
+    user-select: none;
+}
+
+body 
+{
+  font-family: Helvetica, sans-serif;
 }
