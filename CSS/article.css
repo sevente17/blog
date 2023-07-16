@@ -1,0 +1,14 @@
+#info {
+    text-align: center;
+    word-spacing: 30px;
+}
+
+#info > #ArticleTitle {
+    font-size: 24px;
+}
+
+#info > #time,
+#author {
+    font-size: 16px;
+    color: rgb(105, 105, 105);
+}

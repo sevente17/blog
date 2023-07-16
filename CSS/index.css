@@ -1,0 +1,33 @@
+#article-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.card{
+  width: 200px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 10px 10px 16px gray;
+  transition: all 0.2s cubic-bezier(0.18, 0.89, 0.13, 1.74) 0s;
+  text-align: center;
+  flex: auto;
+}
+
+.card > a > img{
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  
+}
+
+.card > a > span{
+  font-size: 22px;
+  color: black;
+}
+
